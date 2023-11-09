@@ -41,4 +41,41 @@ html {
 .header #logo {
   color: black;
   font-size: 2.5rem;
+}
+.header .navbar a {
+  color: black;
+  margin-left: 1.5rem;
+  font-size: 1.5rem;
+  position: relative;
+}
+.header .navbar a:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  height: 2px;
+  margin-top: 5px;
+  width: 0;
+}
+.header .navbar a:hover:after {
+  width: 100%;
+}
+.header .icon {
+  margin-left: 1.5rem;
+  font-size: 2rem;
+}
+.header .icon #menubar {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  html {
+    font-size: 55%;
+  }
+  html .header .icon #menubar {
+    display: initial;
+  }
 }/*# sourceMappingURL=style.css.map */

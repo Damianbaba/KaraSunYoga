@@ -14,7 +14,6 @@
 	font-family: 'Roboto', sans-serif;
 	box-sizing: border-box;
 }
-
 html{
 	font-size: 62.5%;
 	scroll-behavior: smooth;
@@ -31,10 +30,60 @@ html{
 	background-color: var(--secondclr);
 
 	#logo{
-	color: black;
-	font-size: 2.5rem;
+		color: black;
+		font-size: 2.5rem;
+	}
+	.navbar{
+		a{
+			color: black;
+			margin-left: 1.5rem;
+			font-size: 1.5rem;
+			position: relative;
+		}
+		a:after{
+			content: "";
+			position: absolute;
+			top: 100%;
+			left: 0;
+			background-color: black;
+			transition: 0.5s;
+			height: 2px;
+			margin-top: 5px;
+			width: 0;
+		}
+		a:hover:after{
+			width: 100%;
+		}
+	}
+
+	.icon {
+		margin-left:1.5rem;
+		font-size: 2rem;
+
+		#menubar{
+			display: none;
+		}
+	}
 }
+
+
+
+
+
+
+
+@media(max-width: 767px){
+	html{
+		font-size: 55%;
+
+		.header{
+			.icon{
+				#menubar{
+					display: initial;
+				}
+			}
+		}
+	}
+	
+
 }
-
-
-
