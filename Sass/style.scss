@@ -40,6 +40,9 @@ html{
 			font-size: 1.5rem;
 			position: relative;
 		}
+		a:hover{
+			color: orange;
+		}
 		a:after{
 			content: "";
 			position: absolute;
@@ -53,17 +56,26 @@ html{
 		}
 		a:hover:after{
 			width: 100%;
+			color: orange;
 		}
 	}
 
 	.icon {
+		
+		div{
 		margin-left:1.5rem;
 		font-size: 2rem;
+		cursor: pointer;
+	}
 
+	div:hover{
+		color: orange;
+	}
 		#menubar{
 			display: none;
 		}
 	}
+
 }
 
 

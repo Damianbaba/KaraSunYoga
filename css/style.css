@@ -48,6 +48,9 @@ html {
   font-size: 1.5rem;
   position: relative;
 }
+.header .navbar a:hover {
+  color: orange;
+}
 .header .navbar a:after {
   content: "";
   position: absolute;
@@ -62,10 +65,15 @@ html {
 }
 .header .navbar a:hover:after {
   width: 100%;
+  color: orange;
 }
-.header .icon {
+.header .icon div {
   margin-left: 1.5rem;
   font-size: 2rem;
+  cursor: pointer;
+}
+.header .icon div:hover {
+  color: orange;
 }
 .header .icon #menubar {
   display: none;
