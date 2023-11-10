@@ -14,6 +14,7 @@
   font-family: "Roboto", sans-serif;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  outline: none;
 }
 
 html {
@@ -42,16 +43,19 @@ html {
   color: black;
   font-size: 2.5rem;
 }
-.header .navbar a {
+.header .navbar.active {
+  top: 100%;
+}
+.header .navbar.active a {
   color: black;
   margin-left: 1.5rem;
   font-size: 1.5rem;
   position: relative;
 }
-.header .navbar a:hover {
+.header .navbar.active a:hover {
   color: orange;
 }
-.header .navbar a:after {
+.header .navbar.active a:after {
   content: "";
   position: absolute;
   top: 100%;
@@ -63,7 +67,7 @@ html {
   margin-top: 5px;
   width: 0;
 }
-.header .navbar a:hover:after {
+.header .navbar.active a:hover:after {
   width: 100%;
   color: orange;
 }
@@ -78,10 +82,87 @@ html {
 .header .icon #menubar {
   display: none;
 }
+.header .search-form {
+  position: absolute;
+  top: 100%;
+  left: 100%;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--mainclr);
+}
+.header .search-form .inner-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 800%;
+}
+.header .search-form .inner-form input {
+  padding: 1.5rem;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid black;
+  color: white;
+  margin-top: 1rem;
+}
+.header .search-form .inner-form input::-webkit-input-placeholder {
+  color: white;
+}
+.header .search-form .inner-form input::-moz-placeholder {
+  color: white;
+}
+.header .search-form .inner-form input:-ms-input-placeholder {
+  color: white;
+}
+.header .search-form .inner-form input::-ms-input-placeholder {
+  color: white;
+}
+.header .search-form .inner-form input::placeholder {
+  color: white;
+}
+.header .search-form.active {
+  left: 0;
+}
 
 @media (max-width: 767px) {
   html {
     font-size: 55%;
+  }
+  html .header .navbar {
+    position: absolute;
+    top: -1000%;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    right: 0;
+    background-color: var(--mainclr);
+  }
+  html .header .navbar a {
+    display: block;
+    text-align: center;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    font-size: 2rem;
   }
   html .header .icon #menubar {
     display: initial;
