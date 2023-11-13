@@ -144,6 +144,18 @@ html{
 
 .back{
 	padding: 10rem 7%;
+
+	.main-home{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 20px;
+
+		.inner-home{
+			flex: 1 1 45rem;
+		}
+	}
 }
 
 
@@ -166,7 +178,7 @@ html{
 
 			.navbar{
 				position: absolute;
-				top: -1180%;
+				top: -2000%;
 				width: 100%;
 				height: 100vh;
 				left: 0;

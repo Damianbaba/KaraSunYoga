@@ -194,6 +194,25 @@ html {
 .back {
   padding: 10rem 7%;
 }
+.back .main-home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 20px;
+}
+.back .main-home .inner-home {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 45rem;
+          flex: 1 1 45rem;
+}
 
 @media (max-width: 767px) {
   html {
@@ -201,7 +220,7 @@ html {
   }
   html .header .navbar {
     position: absolute;
-    top: -1180%;
+    top: -2000%;
     width: 100%;
     height: 100vh;
     left: 0;
