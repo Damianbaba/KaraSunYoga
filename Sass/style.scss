@@ -151,13 +151,28 @@ html{
 		align-items: center;
 		flex-wrap: wrap;
 		gap: 20px;
+		margin-top: 6%;
 
 		.inner-home{
 			flex: 1 1 45rem;
+			text-align: center;
 			img{
-				padding-top: 8rem;
 				width: 100%;
 			}
+			.inner-content{
+					h1{
+						color: var(--mainclr);
+						font-size: 80px;
+						margin-bottom: 10px;
+					}
+					p{
+						font-size: 1.5rem;
+						color: black;
+						margin-bottom: 20px;
+						padding: 0 6rem;
+						line-height: 1.5;
+					}
+				}
 		}
 	}
 }
