@@ -213,6 +213,10 @@ html {
       -ms-flex: 1 1 45rem;
           flex: 1 1 45rem;
 }
+.back .main-home .inner-home img {
+  padding-top: 8rem;
+  width: 100%;
+}
 
 @media (max-width: 767px) {
   html {
