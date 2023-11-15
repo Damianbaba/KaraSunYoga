@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
 :root {
-  --mainclr:#6c9894;
+  --mainclr: #6c9894;
   --secondclr: #d0efe1;
 }
 
@@ -230,6 +230,47 @@ html {
   padding: 0 6rem;
   line-height: 1.5;
 }
+.back .main-home .inner-home .inner-content a {
+  padding: 1rem 4rem;
+  background-color: var(--mainclr);
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 25px;
+}
+
+.our-classes {
+  padding: 3rem 7%;
+  background-color: var(--mainclr);
+}
+.our-classes h1 {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.our-classes .main-class {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 20px;
+}
+.our-classes .inner-class {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 300px;
+          flex: 1 1 300px;
+}
+.our-classes .inner-class img {
+  width: 90%;
+  margin: 0 auto;
+}
 
 @media (max-width: 767px) {
   html {
@@ -253,5 +294,14 @@ html {
   }
   html .header .icon #menubar {
     display: initial;
+  }
+  html .back .main-home {
+    padding-top: 7%;
+  }
+  html .back .main-home .inner-home .inner-content h1 {
+    font-size: 40px;
+  }
+  html .back .main-home .inner-home .inner-content p {
+    padding: 0 1rem;
   }
 }/*# sourceMappingURL=style.css.map */
