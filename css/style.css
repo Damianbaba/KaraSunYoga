@@ -282,11 +282,45 @@ html {
   margin-bottom: 20px;
 }
 .our-classes .main-class .inner-class .class-content a {
+  display: inline-block;
   background-color: white;
   font-size: 1.5rem;
   color: black;
   border-radius: 25px;
   padding: 1rem 3rem;
+  margin: 5px 0;
+}
+
+.our-instructor {
+  padding: 3rem 7%;
+  background-color: var(--mainclr);
+}
+.our-instructor h1 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+.our-instructor .main-instructor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 15px;
+}
+.our-instructor .main-instructor .inner-instructor {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 45rem;
+          flex: 1 1 45rem;
+}
+.our-instructor .main-instructor .inner-instructor img {
+  width: 100%;
 }
 
 @media (max-width: 767px) {

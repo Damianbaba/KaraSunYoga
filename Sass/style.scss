@@ -222,15 +222,40 @@ html {
         }
 
         a{
+          display: inline-block;
           background-color: white;
           font-size: 1.5rem;
           color: black;
           border-radius: 25px;
           padding: 1rem 3rem;
+          margin: 5px 0;
         }
       }
 	  }
 	}
+}
+.our-instructor{
+  padding: 3rem 7%;
+  background-color: var(--mainclr);
+  h1{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+  }
+  .main-instructor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    .inner-instructor{
+      flex: 1 1 45rem;
+      img{
+        width: 100%;
+      }
+    }
+  }
 }
 
 @media (max-width: 767px) {
