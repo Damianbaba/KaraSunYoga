@@ -245,7 +245,7 @@ html {
 .our-classes h1 {
   text-align: center;
   color: white;
-  font-size: 30px;
+  font-size: 40px;
   margin-bottom: 30px;
 }
 .our-classes .main-class {
@@ -293,11 +293,10 @@ html {
 
 .our-instructor {
   padding: 3rem 7%;
-  background-color: var(--mainclr);
 }
 .our-instructor h1 {
-  color: white;
-  font-size: 30px;
+  color: black;
+  font-size: 40px;
   text-align: center;
 }
 .our-instructor .main-instructor {
@@ -318,6 +317,22 @@ html {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 45rem;
           flex: 1 1 45rem;
+}
+.our-instructor .main-instructor .inner-instructor .inner-content h2 {
+  font-size: 60px;
+  color: black;
+  padding: 0 4rem;
+}
+.our-instructor .main-instructor .inner-instructor .inner-content p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.our-instructor .main-instructor .inner-instructor .inner-content a {
+  padding: 1rem 4rem;
+  background-color: white;
+  color: black;
+  font-size: 1.5rem;
+  border-radius: 25px;
 }
 .our-instructor .main-instructor .inner-instructor img {
   width: 100%;
