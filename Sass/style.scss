@@ -257,7 +257,7 @@ html {
 // ABOUT 
 
 .our-instructor {
-  padding: 4rem 7%;
+  padding: 5rem 7%;
   background-color: #fefefe;
 
   h1 {
@@ -271,45 +271,17 @@ html {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    // gap: 15px;
+    gap: 70px;
 
     .inner-instructor {
       flex: 1 1 45rem;
-      // .inner-content-instructor {
-      //   width: 70%;
-      //   margin: 0 auto;
-      //   h2 {
-      //     font-size: 60px;
-      //     color: var(--mainclr);
-      //     font-family: "Allura", cursive;
-      //   }
-      //   p {
-      //     font-size: 1.5rem;
-      //     margin: 10px 0 25px 0;
-      //     // padding: 0 3rem;
-      //     // text-align: center;
-      //   }
-      //   a {
-      //     padding: 1rem 4rem;
-      //     background-color: var(--mainclr);
-      //     color: white;
-      //     font-size: 1.5rem;
-      //     border-radius: 25px;
-      //     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-      //   }
-      //   a:hover {
-      //     background-color: var(--secondclr);
-      //     color: black;
-      //   }
-      // }
-
-      .inner-content-instructor {
+          .inner-content-instructor {
             text-align: center;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            width: 75%;
+            width: 100%;
             h2 {
               font-size: 60px;
               color: var(--mainclr);
@@ -330,11 +302,28 @@ html {
               font-size: 1.5rem;
               border-radius: 25px;
               box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+              transition: .7s;
+           
+            }
+            a:hover{
+              color: black;
+              background-color: var(--secondclr);
+             
             }
           }
 
       img {
         width: 100%;
+      }
+    }
+  }
+  .secondary-instructor{
+    .inner-instructor{
+      .inner-content-instructor{
+        h2{
+          font-size: 65px;
+          line-height: 1;
+        }
       }
     }
   }
@@ -408,7 +397,7 @@ html {
               margin-top: 25px;
             }
             p {
-              margin: 10px 0 30px 0;
+              margin: 10px 0 38px 0;
               font-size: 1.75rem;
             }
             a {
@@ -418,6 +407,10 @@ html {
             }
           }
         }
+      }
+      .secondary-instructor{
+         display: flex;
+        flex-direction: column;
       }
     }
   }
