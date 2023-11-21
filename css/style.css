@@ -385,6 +385,9 @@ html {
   html {
     font-size: 55%;
   }
+  html .header #logo {
+    font-size: 4.5rem;
+  }
   html .header .navbar {
     position: absolute;
     top: -2000%;
