@@ -254,7 +254,7 @@ html {
   }
 }
 
-// ABOUT 
+// ABOUT
 
 .our-instructor {
   padding: 5rem 7%;
@@ -275,52 +275,50 @@ html {
 
     .inner-instructor {
       flex: 1 1 45rem;
-          .inner-content-instructor {
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            width: 100%;
-            h2 {
-              font-size: 60px;
-              color: var(--mainclr);
-              font-family: "Allura", cursive;
-              margin: 0; 
-              font-size: 70px;
-              margin-top: 25px;
-            }
-            p {
-              margin: 10px 0 30px 0;
-              font-size: 1.75rem;
-               padding: 0 3rem;          
-            }
-            a {
-              padding: 1rem 4rem;
-              background-color: var(--mainclr);
-              color: white;
-              font-size: 1.5rem;
-              border-radius: 25px;
-              box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-              transition: .7s;
-           
-            }
-            a:hover{
-              color: black;
-              background-color: var(--secondclr);
-             
-            }
-          }
+      .inner-content-instructor {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        h2 {
+          font-size: 60px;
+          color: var(--mainclr);
+          font-family: "Allura", cursive;
+          margin: 0;
+          font-size: 70px;
+          margin-top: 25px;
+        }
+        p {
+          margin: 10px 0 30px 0;
+          font-size: 1.75rem;
+          padding: 0 3rem;
+        }
+        a {
+          padding: 1rem 4rem;
+          background-color: var(--mainclr);
+          color: white;
+          font-size: 1.5rem;
+          border-radius: 25px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          transition: 0.7s;
+        }
+        a:hover {
+          color: black;
+          background-color: var(--secondclr);
+        }
+      }
 
       img {
         width: 100%;
       }
     }
   }
-  .secondary-instructor{
-    .inner-instructor{
-      .inner-content-instructor{
-        h2{
+  .secondary-instructor {
+    .inner-instructor {
+      .inner-content-instructor {
+        h2 {
           font-size: 65px;
           line-height: 1;
         }
@@ -331,53 +329,73 @@ html {
 
 // GALLERY
 
-  .our-gallery{
-    padding: 4rem 7%;
-    background-color: var(--mainclr);
-    h1{
-      text-align: center;
-      font-size: 30px;
-      color: white;
-      margin-bottom: 20px;
-    }
+.our-gallery {
+  padding: 4rem 7%;
+  background-color: var(--mainclr);
+  h1 {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+  }
 
-    .main-gallery{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 20px;
+  .main-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
 
-      .inner-gallery{
-        flex: 1 1 300px;
-        position: relative;
-        overflow: hidden;
+    .inner-gallery {
+      flex: 1 1 300px;
+      position: relative;
+      overflow: hidden;
 
-        img{
-          width: 100%;
-          border-radius: 3%;
-          height: 300px;
-          object-fit: cover;
-        }
-        .zoom-image{
-          display: block;
-          height: auto;
-          transition: transform 0.7s ease-in-out;
-        }
-        .zoom-image:hover{
-          transform: scale(1.3);
-        }
-
+      img {
+        width: 100%;
+        border-radius: 3%;
+        height: 300px;
+        object-fit: cover;
+        cursor: pointer;
+      }
+      .zoom-image {
+        display: block;
+        height: auto;
+        transition: transform 0.7s ease-in-out;
+      }
+      .zoom-image:hover {
+        transform: scale(1.3);
       }
     }
   }
+}
 
+// CONTACT US
+
+.contact-us {
+  padding: 4rem 7%;
+  background-color: var(--mainclr);
+
+  .main-contact {
+    display: flex;
+  }
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: var(--secondclr);
+  color: black;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px 5px;
+}
 
 @media (max-width: 767px) {
   html {
     font-size: 55%;
     .header {
-      #logo{
+      #logo {
         font-size: 4.5rem;
       }
       .navbar {
@@ -452,8 +470,8 @@ html {
           }
         }
       }
-      .secondary-instructor{
-         display: flex;
+      .secondary-instructor {
+        display: flex;
         flex-direction: column;
       }
     }

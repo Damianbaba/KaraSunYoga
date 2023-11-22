@@ -429,6 +429,7 @@ html {
   height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
+  cursor: pointer;
 }
 .our-gallery .main-gallery .inner-gallery .zoom-image {
   display: block;
@@ -441,6 +442,26 @@ html {
 .our-gallery .main-gallery .inner-gallery .zoom-image:hover {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
+}
+
+.contact-us {
+  padding: 4rem 7%;
+  background-color: var(--mainclr);
+}
+.contact-us .main-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: var(--secondclr);
+  color: black;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px 5px;
 }
 
 @media (max-width: 767px) {
