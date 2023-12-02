@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Roboto:wght@100;400;700&family=Tangerine&display=swap");
+:root {
+  --mainclr: #6c9894;
+  --secondclr: #d0efe1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+.header {
+  padding: 2rem 7%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: var(--secondclr);
+  z-index: 1000;
+}
+.header #logo {
+  color: black;
+  font-family: "Allura", cursive;
+  font-size: 2.5rem;
+}
+.header .navbar a {
+  color: black;
+  margin-left: 1.5rem;
+  font-size: 1.5rem;
+  position: relative;
+}
+.header .navbar a:hover {
+  color: orange;
+}
+.header .navbar a:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  height: 2px;
+  margin-top: 5px;
+  width: 0;
+}
+.header .navbar a:hover:after {
+  width: 100%;
+  color: orange;
+}
+.header .navbar.active {
+  top: 100%;
+}
+.header .icon div {
+  margin-left: 1.5rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.header .icon div:hover {
+  color: orange;
+}
+.header .icon #menubar {
+  display: none;
+}
+.header .search-form {
+  position: absolute;
+  top: 100%;
+  left: 100%;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--mainclr);
+}
+.header .search-form .inner-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 800%;
+}
+.header .search-form .inner-form input {
+  padding: 1.5rem;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid black;
+  color: white;
+  margin-top: 1rem;
+}
+.header .search-form .inner-form input::-webkit-input-placeholder {
+  color: white;
+}
+.header .search-form .inner-form input::-moz-placeholder {
+  color: white;
+}
+.header .search-form .inner-form input:-ms-input-placeholder {
+  color: white;
+}
+.header .search-form .inner-form input::-ms-input-placeholder {
+  color: white;
+}
+.header .search-form .inner-form input::placeholder {
+  color: white;
+}
+.header .search-form.active {
+  left: 0;
+}
+.header .searchbar {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  left: -100%;
+  right: 0;
+  top: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: var(--mainclr);
+}
+.header .searchbar .inner-searchbar {
+  width: 80%;
+}
+.header .searchbar .inner-searchbar input {
+  border: none;
+  padding: 1.5rem;
+  width: 100%;
+  background-color: transparent;
+  border-bottom: 2px solid black;
+  color: white;
+}
+.header .searchbar .inner-searchbar input::-webkit-input-placeholder {
+  color: white;
+}
+.header .searchbar .inner-searchbar input::-moz-placeholder {
+  color: white;
+}
+.header .searchbar .inner-searchbar input:-ms-input-placeholder {
+  color: white;
+}
+.header .searchbar .inner-searchbar input::-ms-input-placeholder {
+  color: white;
+}
+.header .searchbar .inner-searchbar input::placeholder {
+  color: white;
+}
+.header .active {
+  left: 0;
+}
+
+.back {
+  padding: 10rem 7%;
+  background-color: #fefefe;
+}
+.back .main-home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 6%;
+}
+.back .main-home .inner-home {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 45rem;
+          flex: 1 1 45rem;
+  text-align: center;
+}
+.back .main-home .inner-home img {
+  width: 100%;
+}
+.back .main-home .inner-home .inner-content h1 {
+  color: var(--mainclr);
+  font-size: 80px;
+  margin-bottom: 10px;
+  font-family: "Allura", cursive;
+}
+.back .main-home .inner-home .inner-content p {
+  font-size: 1.5rem;
+  color: black;
+  margin-bottom: 20px;
+  padding: 0 6rem;
+  line-height: 1.5;
+}
+.back .main-home .inner-home .inner-content a {
+  padding: 1rem 4rem;
+  background-color: var(--mainclr);
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 25px;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.back .main-home .inner-home .inner-content a:hover {
+  background-color: var(--secondclr);
+  color: black;
+}/*# sourceMappingURL=karaSunYoga.css.map */

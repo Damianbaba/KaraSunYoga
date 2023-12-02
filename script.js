@@ -17,6 +17,74 @@ mySearch.onclick = () => {
 }
 
 
-// Glowing flower 
+// Glowing flower
+
+// const glowCanvas = document.getElementById('glow-canvas');
+// const glowImg = document.getElementById('glow-img');
+// const ctx = glowCanvas.getContext('2d');
+
+// glowCanvas.width = glowImg.width;
+// glowCanvas.height = glowImg.height;
+
+// function drawGlow() {
+// 	ctx.clearRect(0, 0, glowCanvas.width, glowCanvas.height);
+
+// 	// Adjust the glow color
+// 	ctx.shadowColor = '#ffcc00';
+// 	// Adjust the glow size
+// 	ctx.shadowBlur = 20;
+
+// 	ctx.drawImage(glowImg, 0, 0, glowCanvas.width, glowCanvas.height);
+
+// 	// Reset shadow settings
+// 	ctx.shadowColor = 'transparent';
+// 	ctx.shadowBlur = 0;
+// }
+
+// function animateGlow() {
+// 	drawGlow();
+// 	requestAnimationFrame(animateGlow);
+// }
+
+// animateGlow();
+
+
+
+
+//  glov 2
+
+// const glowCanvas = document.getElementById('glow-canvas');
+// const glowImg = document.getElementById('glow-img');
+// const ctx = glowCanvas.getContext('2d');
+
+// glowCanvas.width = glowImg.width;
+// glowCanvas.height = glowImg.height;
+
+// let time = 0;
+
+// function drawGlow() {
+// 	ctx.clearRect(0, 0, glowCanvas.width, glowCanvas.height);
+
+// 	// Adjust the glow color
+// 	ctx.shadowColor = '#ffcc00';
+// 	// Adjust the glow size based on a sine wave for a pulsating effect
+// 	ctx.shadowBlur = 20 + Math.sin(time) * 5;
+
+// 	ctx.drawImage(glowImg, 0, 0, glowCanvas.width, glowCanvas.height);
+
+// 	// Reset shadow settings
+// 	ctx.shadowColor = 'transparent';
+// 	ctx.shadowBlur = 0;
+
+// 	// Increase the time for the next frame
+// 	time += 0.05;
+// }
+
+// function animateGlow() {
+// 	drawGlow();
+// 	requestAnimationFrame(animateGlow);
+// }
+
+// animateGlow();
 
 

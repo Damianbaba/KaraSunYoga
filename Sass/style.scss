@@ -389,14 +389,18 @@ html {
     gap: 15px;
     .inner-contact {
       flex: 1 1 45rem;
-      h1 {
-        font-size: 30px;
+        h1 {
+          font-size: 30px;
+          color: white;
+          text-align: center;
+        }
+        img {
+          position: relative;
+          left: 100px;
+          width: 75%;
+        }
       }
-      img {
-        position: relative;
-        left: 100px;
-        width: 75%;
-      }
+
       .inner-form {
         display: flex;
         justify-content: center;
@@ -415,11 +419,12 @@ html {
           border: 1px solid white;
           color: white;
         }
-
-        input::placeholder&textarea::placeholder {
+        input::placeholder{
           color: white;
         }
-
+        textarea::placeholder {
+          color: white;
+        }
         .btn {
           padding: 1rem 4rem;
           background-color: white;
@@ -438,8 +443,8 @@ html {
         }
       }
     }
-  }
 }
+
 
 .footer {
   width: 100%;

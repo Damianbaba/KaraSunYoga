@@ -492,13 +492,15 @@ html {
 }
 .contact-us .main-contact .inner-contact h1 {
   font-size: 30px;
+  color: white;
+  text-align: center;
 }
 .contact-us .main-contact .inner-contact img {
   position: relative;
   left: 100px;
   width: 75%;
 }
-.contact-us .main-contact .inner-contact .inner-form {
+.contact-us .main-contact .inner-form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -510,50 +512,51 @@ html {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.contact-us .main-contact .inner-contact .inner-form label {
+.contact-us .main-contact .inner-form label {
   display: block;
   padding: 1rem;
   font-size: 1rem;
   color: white;
 }
-.contact-us .main-contact .inner-contact .inner-form input, .contact-us .main-contact .inner-contact .inner-form textarea {
+.contact-us .main-contact .inner-form input,
+.contact-us .main-contact .inner-form textarea {
   padding: 1rem;
   margin: 1rem;
   background-color: transparent;
   border: 1px solid white;
   color: white;
 }
-.contact-us .main-contact .inner-contact .inner-form input::-webkit-input-placeholder {
+.contact-us .main-contact .inner-form input::-webkit-input-placeholder {
   color: white;
 }
-.contact-us .main-contact .inner-contact .inner-form input::-moz-placeholder {
+.contact-us .main-contact .inner-form input::-moz-placeholder {
   color: white;
 }
-.contact-us .main-contact .inner-contact .inner-form input:-ms-input-placeholder {
+.contact-us .main-contact .inner-form input:-ms-input-placeholder {
   color: white;
 }
-.contact-us .main-contact .inner-contact .inner-form input::-ms-input-placeholder {
+.contact-us .main-contact .inner-form input::-ms-input-placeholder {
   color: white;
 }
-.contact-us .main-contact .inner-contact .inner-form input::placeholder {
+.contact-us .main-contact .inner-form input::placeholder {
   color: white;
 }
-.contact-us .main-contact .inner-contact .inner-form textarea::-webkit-input-placeholder {
+.contact-us .main-contact .inner-form textarea::-webkit-input-placeholder {
   color: white;
 }
-.contact-us .main-contact .inner-contact .inner-form textarea::-moz-placeholder {
+.contact-us .main-contact .inner-form textarea::-moz-placeholder {
   color: white;
 }
-.contact-us .main-contact .inner-contact .inner-form textarea:-ms-input-placeholder {
+.contact-us .main-contact .inner-form textarea:-ms-input-placeholder {
   color: white;
 }
-.contact-us .main-contact .inner-contact .inner-form textarea::-ms-input-placeholder {
+.contact-us .main-contact .inner-form textarea::-ms-input-placeholder {
   color: white;
 }
-.contact-us .main-contact .inner-contact .inner-form textarea::placeholder {
+.contact-us .main-contact .inner-form textarea::placeholder {
   color: white;
 }
-.contact-us .main-contact .inner-contact .inner-form .btn {
+.contact-us .main-contact .inner-form .btn {
   padding: 1rem 4rem;
   background-color: white;
   color: black;
@@ -568,7 +571,7 @@ html {
   display: inline-block;
   margin: 0 auto;
 }
-.contact-us .main-contact .inner-contact .inner-form .btn:hover {
+.contact-us .main-contact .inner-form .btn:hover {
   background-color: var(--secondclr);
 }
 
