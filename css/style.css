@@ -455,6 +455,7 @@ html {
   -webkit-box-shadow: 0 1.5rem 2.5rem rgba(0, 0, 0, 0.3);
           box-shadow: 0 1.5rem 2.5rem rgba(0, 0, 0, 0.3);
   border-radius: 0.7rem;
+  margin: 50px auto;
 }
 .container .reviewBox {
   width: 100%;
