@@ -460,7 +460,7 @@ html {
 .container .reviewBox {
   width: 100%;
   height: 100%;
-  padding: 4rem 2rem;
+  padding: 1rem 4rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
