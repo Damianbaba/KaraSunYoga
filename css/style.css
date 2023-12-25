@@ -448,7 +448,64 @@ html {
           transform: scale(1.3);
 }
 
-.feedback-card {
+.container {
+  position: relative;
+  width: 60rem;
+  height: 35rem;
+  -webkit-box-shadow: 0 1.5rem 2.5rem rgba(0, 0, 0, 0.3);
+          box-shadow: 0 1.5rem 2.5rem rgba(0, 0, 0, 0.3);
+  border-radius: 0.7rem;
+}
+.container .reviewBox {
+  width: 100%;
+  height: 100%;
+  padding: 4rem 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.container .reviewBox .avatar {
+  outline: 2px solid #cac7be;
+  outline-offset: 0.5rem;
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container .reviewBox .box {
+  text-align: center;
+}
+.container .reviewBox .box .name {
+  font-size: 2.3rem;
+  letter-spacing: 1px;
+}
+.container .reviewBox .box .job {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  color: #0081b4;
+}
+.container .reviewBox .text {
+  font-size: 1.1rem;
+  color: #8f8b81;
+  font-family: sans-serif;
+  line-height: 1.5;
+  text-align: center;
+}
+.container .btn-groups {
+  width: 100%;
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -458,13 +515,19 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 100%;
-  height: 75vh;
-  background-color: white;
 }
-.feedback-card h1 {
-  text-align: center;
-  font-size: 10rem;
+.container .btn-groups .btn {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #000;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.container .btn-groups .btn:active {
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
 }
 
 .contact-us {
