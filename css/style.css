@@ -448,7 +448,11 @@ html {
           transform: scale(1.3);
 }
 
-.container {
+.feed {
+  position: relative;
+  padding: 6rem 7%;
+}
+.feed .container {
   position: relative;
   width: 60rem;
   height: 35rem;
@@ -457,7 +461,7 @@ html {
   border-radius: 0.7rem;
   margin: 50px auto;
 }
-.container .reviewBox {
+.feed .container .reviewBox {
   width: 100%;
   height: 100%;
   padding: 1rem 4rem;
@@ -474,7 +478,7 @@ html {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.container .reviewBox .avatar {
+.feed .container .reviewBox .avatar {
   outline: 2px solid #cac7be;
   outline-offset: 0.5rem;
   width: 12rem;
@@ -483,26 +487,26 @@ html {
   -o-object-fit: cover;
      object-fit: cover;
 }
-.container .reviewBox .box {
+.feed .container .reviewBox .box {
   text-align: center;
 }
-.container .reviewBox .box .name {
+.feed .container .reviewBox .box .name {
   font-size: 2.3rem;
   letter-spacing: 1px;
 }
-.container .reviewBox .box .job {
+.feed .container .reviewBox .box .job {
   font-size: 1.1rem;
   text-transform: uppercase;
   color: #0081b4;
 }
-.container .reviewBox .text {
+.feed .container .reviewBox .text {
   font-size: 1.1rem;
   color: #8f8b81;
   font-family: sans-serif;
   line-height: 1.5;
   text-align: center;
 }
-.container .btn-groups {
+.feed .container .btn-groups {
   width: 100%;
   position: absolute;
   bottom: 1rem;
@@ -517,7 +521,7 @@ html {
       -ms-flex-align: center;
           align-items: center;
 }
-.container .btn-groups .btn {
+.feed .container .btn-groups .btn {
   cursor: pointer;
   border: none;
   outline: none;
@@ -526,7 +530,7 @@ html {
   font-size: 2.5rem;
   font-weight: bold;
 }
-.container .btn-groups .btn:active {
+.feed .container .btn-groups .btn:active {
   -webkit-transform: scale(0.7);
           transform: scale(0.7);
 }
