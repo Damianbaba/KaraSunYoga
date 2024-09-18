@@ -877,4 +877,19 @@ html {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+}
+@media (max-width: 412px) {
+  .feed .container {
+    width: 35rem;
+    height: 45rem;
+  }
+}
+.footer-distributed .footer-left {
+  width: auto;
+}
+.footer-distributed .footer-center {
+  width: auto;
+}
+.footer-distributed .footer-right {
+  width: auto;
 }/*# sourceMappingURL=style.css.map */
