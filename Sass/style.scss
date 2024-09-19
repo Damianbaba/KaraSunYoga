@@ -816,6 +816,52 @@ html {
 
 @media (max-width: 412px){
 .feed{
+  padding: 0;
+  .container{
+    width: 35rem;
+    height: 45rem;
+  }
+}
+}
+
+.footer-distributed{
+  .footer-left{
+    width: auto;
+  }
+  .footer-center{
+    width: auto;
+  }
+  .footer-right{
+    width: auto;
+  }
+}
+
+
+@media (max-width: 390px){
+.feed{
+  padding: 0;
+  .container{
+    width: 35rem;
+    height: 45rem;
+  }
+}
+}
+
+.footer-distributed{
+  .footer-left{
+    width: auto;
+  }
+  .footer-center{
+    width: auto;
+  }
+  .footer-right{
+    width: auto;
+  }
+}
+
+@media (max-width: 360px){
+.feed{
+  padding: 0;
   .container{
     width: 35rem;
     height: 45rem;
