@@ -822,7 +822,6 @@ html {
     height: 45rem;
   }
 }
-}
 
 .footer-distributed{
   .footer-left{
@@ -835,6 +834,9 @@ html {
     width: auto;
   }
 }
+}
+
+
 
 
 @media (max-width: 390px){
@@ -845,8 +847,6 @@ html {
     height: 45rem;
   }
 }
-}
-
 .footer-distributed{
   .footer-left{
     width: auto;
@@ -859,15 +859,33 @@ html {
   }
 }
 
+}
+
+
+
 @media (max-width: 360px){
-.feed{
+ .our-instructor{
+  .main-instructor{
+    .inner-instructor{
+      .inner-content-instructor{
+        h2{
+          font-size: 50px;
+        }
+      }
+    }
+  }
+ }
+
+
+
+
+  .feed{
   padding: 0;
   .container{
     width: 35rem;
     height: 45rem;
   }
 }
-}
 
 .footer-distributed{
   .footer-left{
@@ -880,3 +898,6 @@ html {
     width: auto;
   }
 }
+}
+
+
