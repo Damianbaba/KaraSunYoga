@@ -797,6 +797,7 @@ font-size: calc(18px + 0.450625vw);
       }
     }
     .our-instructor {
+      padding: 1rem 7%;
       h1 {
         margin: 35px 0;
       }
@@ -835,10 +836,27 @@ font-size: calc(18px + 0.450625vw);
         flex-direction: column;
       }
     }
+    .feed{
+  padding: 0;
+  .container{
+    width: 35rem;
+    height: 45rem;
+
+    .reviewBox{
+      .text{
+        padding-bottom: 4rem;
+      }
+    }
+  }
+}
+
   }
 }
 
 @media (max-width: 412px){
+   .our-instructor{
+ padding: 1rem 7%;
+ }
 .feed{
   padding: 0;
   .container{
@@ -864,6 +882,9 @@ font-size: calc(18px + 0.450625vw);
 
 
 @media (max-width: 390px){
+   .our-instructor{
+ padding: 1rem 7%;
+ }
 .feed{
   padding: 0;
   .container{
@@ -888,20 +909,9 @@ font-size: calc(18px + 0.450625vw);
 
 
 @media (max-width: 360px){
-//  .our-instructor{
-//   .main-instructor{
-//     .inner-instructor{
-//       .inner-content-instructor{
-//         h2{
-//           // font-size: 50px;
-//         }
-//         // p{
-//         //   font-size: calc(15px + 0.390625vw);
-//         // }
-//       }
-//     }
-//   }
-//  }
+ .our-instructor{
+ padding: 1rem 7%;
+ }
   .feed{
   padding: 0;
   .container{

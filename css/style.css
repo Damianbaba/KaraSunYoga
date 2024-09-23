@@ -836,6 +836,9 @@ h2 {
   html .back .main-home .inner-home .inner-content p {
     padding: 0 1rem;
   }
+  html .our-instructor {
+    padding: 1rem 7%;
+  }
   html .our-instructor h1 {
     margin: 35px 0;
   }
@@ -888,8 +891,21 @@ h2 {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  html .feed {
+    padding: 0;
+  }
+  html .feed .container {
+    width: 35rem;
+    height: 45rem;
+  }
+  html .feed .container .reviewBox .text {
+    padding-bottom: 4rem;
+  }
 }
 @media (max-width: 412px) {
+  .our-instructor {
+    padding: 1rem 7%;
+  }
   .feed {
     padding: 0;
   }
@@ -908,6 +924,9 @@ h2 {
   }
 }
 @media (max-width: 390px) {
+  .our-instructor {
+    padding: 1rem 7%;
+  }
   .feed {
     padding: 0;
   }
@@ -926,6 +945,9 @@ h2 {
   }
 }
 @media (max-width: 360px) {
+  .our-instructor {
+    padding: 1rem 7%;
+  }
   .feed {
     padding: 0;
   }
