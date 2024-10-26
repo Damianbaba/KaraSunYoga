@@ -530,6 +530,30 @@ font-size: calc(18px + 0.450625vw);
         textarea::placeholder {
           color: white;
         }
+        button{
+          // Remove default border, padding, and background
+           border: none;
+           padding: 0;
+           background: none;
+           font: inherit;            // Inherit font styles from parent
+           color: inherit;           // Inherit color from parent
+           
+           // Remove default outline and add custom focus style if needed
+           outline: none;
+           cursor: pointer;          // Make cursor pointer for better UX
+         
+           // Optional: Add focus styles for accessibility
+           &:focus {
+             outline: 2px solid #007acc;  // Visible focus indicator
+             outline-offset: 2px;
+           }
+         
+           // Prevent button text selection
+           user-select: none;
+           
+           // Add custom transition or animation if desired
+           transition: background-color 0.3s ease;
+        }
         .btn {
           padding: 1rem 4rem;
           background-color: white;
