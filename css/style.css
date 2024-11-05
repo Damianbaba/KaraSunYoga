@@ -440,7 +440,6 @@ h2 {
 }
 .our-gallery .main-gallery .inner-gallery .zoom-image {
   display: block;
-  height: auto;
   -webkit-transition: -webkit-transform 0.7s ease-in-out;
   transition: -webkit-transform 0.7s ease-in-out;
   transition: transform 0.7s ease-in-out;
@@ -557,6 +556,8 @@ h2 {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  width: 50%;
+  margin: 0 auto;
   gap: 15px;
 }
 .contact-us .main-contact .inner-contact {

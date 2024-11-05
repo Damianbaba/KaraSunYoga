@@ -367,7 +367,7 @@ font-size: calc(18px + 0.450625vw);
       }
       .zoom-image {
         display: block;
-        height: auto;
+        // height: auto;
         transition: transform 0.7s ease-in-out;
         border-radius: 3%;
       }
@@ -491,6 +491,8 @@ font-size: calc(18px + 0.450625vw);
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    width: 50%;
+    margin: 0 auto;
     gap: 15px;
     .inner-contact {
       flex: 1 1 45rem;
