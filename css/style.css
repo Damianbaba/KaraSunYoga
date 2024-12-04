@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 :root {
   --mainclr: #6c9894;
   --secondclr: #d0efe1;
@@ -9,9 +9,8 @@
   padding: 0;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-  text-transform: capitalize;
   text-decoration: none;
-  font-family: "Source Sans 3", sans-serif;
+  font-family: "Open Sans", serif;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   outline: none;
@@ -236,7 +235,6 @@ h2 {
 .back .main-home .inner-home .inner-content h1 {
   color: var(--mainclr);
   margin-bottom: 10px;
-  font-family: "Montserrat", sans-serif;
 }
 .back .main-home .inner-home .inner-content p {
   color: black;
@@ -359,7 +357,6 @@ h2 {
 }
 .our-instructor .main-instructor .inner-instructor .inner-content-instructor h2 {
   color: var(--mainclr);
-  font-family: "Montserrat", sans-serif;
   margin: 0;
   margin-top: 25px;
 }
@@ -509,7 +506,7 @@ h2 {
   font-family: sans-serif;
   line-height: 1.5;
   text-align: center;
-  padding-bottom: 1rem;
+  padding-bottom: 2.5rem;
 }
 .feed .container .btn-groups {
   width: 100%;
