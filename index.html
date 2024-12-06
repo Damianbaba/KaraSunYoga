@@ -2,9 +2,32 @@
 <html lang="en">
 
 <head>
+	<!-- Basic Meta Tags -->
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>KaraSunYoga</title>
+	<title>
+		Karasun Wellness: Holistic Health,Yoga, Massage & Wellness Services
+	</title>
+	<meta name="description"
+		content="Karasun Wellness offers professional massage, Yoga, herbal medicine, and holistic health services in Crystal Palace, London, UK. Experience natural healing tailored to your wellness goals." />
+	<meta name="keywords"
+		content="Yoga & Massage in Crystal Palace, London,Uk , holistic health, wellness center, herbal medicine, natural healing, wellness Crystal Palace, London,Uk" />
+	<meta name="author" content="Karasun Wellness" />
+
+	<!-- Open Graph Meta Tags (for social media sharing) -->
+	<meta property="og:title" content="Karasun Wellness: Massage & Holistic Healing in Crystal Palace" />
+	<meta property="og:description"
+		content="Transform your health with Karasun Wellness. Offering Yoga, Massage, herbal remedies, and personalized wellness plans in Crystal Palace, London, Uk." />
+	<meta property="og:image" content="https://karasunwellness.com/images/og-image.jpg" />
+	<!-- Replace with your actual image URL -->
+	<meta property="og:url" content="https://karasunwellness.com/" />
+	<meta property="og:type" content="website" />
+
+	<!-- Treatwell book now -->
+	<script src="https://widget.treatwell.co.uk/common/venue-menu/javascript/widget-button.js?v1"></script>
+
+
+	<!-- Css style -->
 	<link rel="stylesheet" href="./css/style.css" />
 	<script src="https://kit.fontawesome.com/47a739cccc.js" crossorigin="anonymous"></script>
 </head>
@@ -19,12 +42,19 @@
 			<a href="#gallery">gallery</a>
 			<a href="#feed">online</a>
 			<a href="#contact">contact</a>
+			<a href='https://www.treatwell.co.uk/' id="wahanda-online-booking-widget"
+				onclick='wahanda.openOnlineBookingWidget("https://widget.treatwell.co.uk/place/381698/menu/"); return false;'
+				target="_blank">
+				<span>Book now!</span>
+			</a>
+
 		</nav>
 
 		<div class="icon">
 			<div id="menubar" class="fas fa-bars"></div>
 			<div id="user" class="fas fa-user"></div>
 			<div id="search" class="fas fa-search"></div>
+
 		</div>
 
 		<div class="search-form">
@@ -76,9 +106,22 @@
 				</div>
 			</div>
 			<div class="inner-class">
+				<img src="./img/beginner.png" alt="" />
+				<div class="class-content">
+					<h2>Yoga Online</h2>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, nam
+						laborum, corrupti suscipit facilis culpa blanditiis eligendi
+						ducimus nostrum exercitationem dolores voluptas, vero officia
+						enim?
+					</p>
+					<a href="#">Read more</a>
+				</div>
+			</div>
+			<div class="inner-class">
 				<img src="./img/Advance.png" alt="" />
 				<div class="class-content">
-					<h2>Massage</h2>
+					<h2>Massage Therapy</h2>
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, nam
 						laborum, corrupti suscipit facilis culpa blanditiis eligendi
@@ -91,7 +134,7 @@
 			<div class="inner-class">
 				<img src="./img/Intermediate.png" alt="" />
 				<div class="class-content">
-					<h2>Coaching</h2>
+					<h2>Workshops</h2>
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, nam
 						laborum, corrupti suscipit facilis culpa blanditiis eligendi
@@ -272,7 +315,7 @@
 		<div class="footer-center">
 			<div>
 				<i class="fa fa-map-marker"></i>
-				<p><span>Crystal Palace</span>London</p>
+				<p><span>Crystal Palace, Norwood, Dulwich</span>London</p>
 			</div>
 			<!-- <div> 
 				<i class="fa fa-phone"></i>
@@ -288,19 +331,21 @@
 		<div class="footer-right">
 			<p class="footer-company-about">
 				<span>Kara Sun</span>
-				Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce
-				euismod convallis velit, eu auctor lacus vehicula sit amet.
+				Lorem ipsum dolor sit amet, consectateur adispicing elit.
 			</p>
 			<div class="footer-icons">
-				<a href="https://www.facebook.com/kara.plaza/about"><i class="fa fa-facebook"></i></a>
+				<a href="https://www.facebook.com/profile.php?id=61568910230530"><i class="fa fa-facebook"></i></a>
 				<!-- <a href="#"><i class="fa fa-twitter"></i></a> -->
-				<a href="#"><i class="fa fa-linkedin"></i></a>
+				<a href="#"><i class="fa fa-treatwell"></i></a>
+				<a href="#"><i class="fa fa-instagram"></i></a>
+
 				<!-- <a href="#"><i class="fa fa-github"></i></a> -->
 			</div>
 		</div>
 	</footer>
 
 	<script src="./script.js"></script>
+	<script src="./TwApp.js"></script>
 </body>
 
 </html>

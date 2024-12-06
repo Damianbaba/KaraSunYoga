@@ -72,7 +72,8 @@ const prev = document.querySelector(".prev");
 const next = document.querySelector(".next");
 let current = 0;
 
-img.src = `img/${data[0].img}.jpg`;
+// img.src = `img/${data[0].img}.jpg`;
+img.src = `img/${data[0].img}.webp`;
 name.textContent = `${data[0].name}`;
 job.textContent = `${data[0].job}`;
 text.textContent = `${data[0].text}`;
@@ -82,7 +83,7 @@ next.addEventListener('click', () => {
 	if (current >= data.length) {
 		current = 0;
 	}
-	img.src = `img/${data[current].img}.jpg`;
+	img.src = `img/${data[current].img}.webp`;
 	name.textContent = `${data[current].name}`;
 	job.textContent = `${data[current].job}`;
 	text.textContent = `${data[current].text}`;
@@ -93,7 +94,7 @@ prev.addEventListener('click', () => {
 	if (current < 0) {
 		current = data.length - 1;
 	}
-	img.src = `img/${data[current].img}.jpg`;
+	img.src = `img/${data[current].img}.webp`;
 	name.textContent = `${data[current].name}`;
 	job.textContent = `${data[current].job}`;
 	text.textContent = `${data[current].text}`;
