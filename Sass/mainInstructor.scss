@@ -1,8 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Allura&family=Roboto:wght@100;400;700&family=Tangerine&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
-// font-family: 'Allura', cursive;
-// font-family: 'Roboto', sans-serif;
-// font-family: 'Tangerine', cursive;
+// font-family: "Open Sans", serif;
 
 :root {
   --mainclr: #6c9894;
@@ -12,9 +10,9 @@
   margin: 0;
   padding: 0;
   transition: all 0.2s;
-  text-transform: capitalize;
+  // text-transform: capitalize;
   text-decoration: none;
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", serif;
   box-sizing: border-box;
   outline: none;
 }
@@ -35,7 +33,7 @@ html {
   z-index: 1000;
   #logo {
     color: black;
-    font-family: "Allura", cursive;
+    font-family: "Open Sans", serif;
     font-size: 2.5rem;
   }
   .navbar {

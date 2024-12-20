@@ -1,23 +1,22 @@
-const menu = document.querySelector('#menubar');
+const menu = document.querySelector("#menubar");
 const mynav = document.querySelector(".navbar");
-const myUser = document.querySelector('#user');
+const myUser = document.querySelector("#user");
 const myForm = document.querySelector(".search-form");
-const mySearch = document.querySelector('#search');
+const mySearch = document.querySelector("#search");
 const searchBar = document.querySelector(".searchbar");
 
 menu.onclick = () => {
-	menu.classList.toggle('fa-times');
-	mynav.classList.toggle('active');
-}
+	menu.classList.toggle("fa-times");
+	mynav.classList.toggle("active");
+};
 myUser.onclick = () => {
-	myForm.classList.toggle('active');
-}
+	myForm.classList.toggle("active");
+};
 mySearch.onclick = () => {
-	searchBar.classList.toggle('active');
-}
+	searchBar.classList.toggle("active");
+};
 
-
-//  Review Carusel Logic 
+//  Review Carusel Logic
 
 const data = [
 	{
@@ -61,7 +60,7 @@ const data = [
 		name: "Nina",
 		job: "Poland",
 		text: "I have known Kara for 3 years. I practice yoga with her face to face and online. I like individual meetings because she chooses asanas just for me. Kara is demanding and I appreciate that. Asanas are not boring. She knows how to explain what to do. She is 100% yoga master. You can feel it so much.",
-	}
+	},
 ];
 
 const img = document.querySelector(".avatar");
@@ -78,7 +77,7 @@ name.textContent = `${data[0].name}`;
 job.textContent = `${data[0].job}`;
 text.textContent = `${data[0].text}`;
 
-next.addEventListener('click', () => {
+next.addEventListener("click", () => {
 	current++;
 	if (current >= data.length) {
 		current = 0;
@@ -87,9 +86,8 @@ next.addEventListener('click', () => {
 	name.textContent = `${data[current].name}`;
 	job.textContent = `${data[current].job}`;
 	text.textContent = `${data[current].text}`;
-
 });
-prev.addEventListener('click', () => {
+prev.addEventListener("click", () => {
 	current--;
 	if (current < 0) {
 		current = data.length - 1;
@@ -98,24 +96,7 @@ prev.addEventListener('click', () => {
 	name.textContent = `${data[current].name}`;
 	job.textContent = `${data[current].job}`;
 	text.textContent = `${data[current].text}`;
-
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Glowing flower
 
@@ -147,9 +128,6 @@ prev.addEventListener('click', () => {
 // }
 
 // animateGlow();
-
-
-
 
 //  glov 2
 
@@ -186,5 +164,3 @@ prev.addEventListener('click', () => {
 // }
 
 // animateGlow();
-
-
