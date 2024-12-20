@@ -50,6 +50,10 @@ h2 {
     font-size: 2.5rem;
   }
   .navbar {
+    #wahanda-online-booking-widget{
+      border-radius: 8px;
+      margin-left: 10px;
+    }
     a {
       color: black;
       margin-left: 1.5rem;
@@ -74,6 +78,8 @@ h2 {
       width: 100%;
       color: orange;
     }
+
+    
   }
   .navbar.active {
     top: 100%;

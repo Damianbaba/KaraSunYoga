@@ -56,6 +56,10 @@ h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
 }
+.header .navbar #wahanda-online-booking-widget {
+  border-radius: 8px;
+  margin-left: 10px;
+}
 .header .navbar a {
   color: black;
   margin-left: 1.5rem;
